@@ -1,0 +1,15 @@
+.li__add {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  opacity: 0;
+}
+
+
+.section:hover .li__add {
+  opacity: 1;
+}
+
+.li:hover .li__add {
+  transform: rotate(45deg);
+}

@@ -1,7 +1,9 @@
 .ul {
-  border-bottom: 1px solid black;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ display: flex;
+ flex-direction: column;
+ border-bottom: 1px solid black;
+}
+
+.ul:hover {
+  cursor: pointer;
 }

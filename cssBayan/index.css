@@ -4,5 +4,9 @@
 @import url(../cssBayan/blocks/main/main.css);
 
 @import url(../cssBayan/blocks/ul/ul.css);
-@import url(../cssBayan/blocks/ul/__title/ul__title.css);
-@import url(../cssBayan/blocks/ul/__add/ul__add.css);
+@import url(../cssBayan/blocks/li/li.css);
+@import url(../cssBayan/blocks/li/__title/li__title.css);
+@import url(../cssBayan/blocks/li/__add/li__add.css);
+@import url(../cssBayan/blocks/ul/__img/ul__img.css);
+/* @import url(../cssBayan/blocks/ul/__title/ul__title.css);
+@import url(../cssBayan/blocks/ul/__add/ul__add.css); */
