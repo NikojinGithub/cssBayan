@@ -4,12 +4,6 @@
 @import url(../cssBayan/blocks/main/main.css);
 
 @import url(../cssBayan/blocks/accordion/accordion.css);
-/* @import url(../cssBayan/blocks/element/element.css);
-@import url(../cssBayan/blocks/element/__label/element__label.css);
-@import url(../cssBayan/blocks/element/__type/element__type.css);
-@import url(../cssBayan/blocks/element/__content/element__content.css);
-@import url(../cssBayan/blocks/element/__add/element__add.css);
-@import url(../cssBayan/blocks/element/__img/element__img.css); */
 
 .element__add {
   height: 30px;
