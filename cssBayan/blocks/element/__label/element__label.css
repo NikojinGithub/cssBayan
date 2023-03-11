@@ -1,0 +1,37 @@
+.element__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.accordion:hover .element .element__label{
+  cursor: pointer;
+}
+
+/* Отслеживает два действия.
+1) Нахождение мышки на классе accordion
+2)Свойство применяется только для label чей input checked
+ в данный момент */
+
+.accordion:hover .element__type[type="radio"]:checked + .element__label {
+  color: blue;
+  font-weight: bold;
+}
+
+.element__type[type="radio"]:checked + .element__label {
+  color: blue;
+  font-weight: bold;
+}
+
+/* .accordion:not(hover) .element__type[type="radio"]:not(checked) + .element__label {
+  color: black;
+} */
+
+
+.element__label:active {
+  color: blue;
+  font-weight: bold;
+  opacity: .6;
+}
