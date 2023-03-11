@@ -1,4 +1,4 @@
-.element__label {
+/* .element__label {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,18 +20,18 @@
   font-weight: bold;
 } */
 
-.element__type[type="radio"]:checked + .element__label {
+/* .element__type[type="radio"]:checked + .element__label {
   color: blue;
   font-weight: bold;
-}
+} */
 
 /* .accordion:not(hover) .element__type[type="radio"]:not(checked) + .element__label {
   color: black;
 } */
 
 
-.element__label:active {
+/* .element__label:active {
   color: blue;
   font-weight: bold;
   opacity: .6;
-}
+} */

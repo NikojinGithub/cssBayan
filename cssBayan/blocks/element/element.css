@@ -1,4 +1,4 @@
-.element {
+/* .element {
   list-style: none;
   width: 100%;
   margin-bottom: 10px;
@@ -8,8 +8,8 @@
 .element:hover .element__content {
   display: block;
   /* overflow: visible; */
-}
+/* }
 
 .element:hover .element__add {
   transform: rotate(45deg);
-}
+} */
