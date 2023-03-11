@@ -7,19 +7,6 @@
   cursor: pointer;
 }
 
-.accordion:hover .element .element__label{
+.accordion:hover {
   cursor: pointer;
-}
-
- /* Отслеживает два действия.
-1) Нахождение мышки на классе accordion
-2)Свойство применяется только для label чей input checked
- в данный момент */
- .accordion:hover .element__type[type="radio"]:checked + .element__label {
-  color: blue;
-  font-weight: bold;
-}
-
-.accordion:hover .li__add {
-  opacity: 1;
 }

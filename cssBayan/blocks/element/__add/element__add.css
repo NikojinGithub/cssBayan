@@ -7,7 +7,7 @@
 
 .accordion:hover .element__add {
   opacity: 1;
-} */
+}
 
 .element:hover .element__add {
   transform: rotate(45deg);
