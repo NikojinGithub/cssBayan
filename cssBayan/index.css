@@ -10,3 +10,70 @@
 @import url(../cssBayan/blocks/ul/__img/ul__img.css);
 /* @import url(../cssBayan/blocks/ul/__title/ul__title.css);
 @import url(../cssBayan/blocks/ul/__add/ul__add.css); */
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion:hover {
+  cursor: pointer;
+}
+
+.li {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.li .label:hover {
+  cursor: pointer;
+}
+
+.type[type="radio"] {
+  display: none;
+}
+
+.content {
+  display: none;
+  /* overflow: hidden; */
+}
+
+.li:hover .content {
+  display: block;
+  /* overflow: visible; */
+}
+
+.type[type="radio"]:checked + .content {
+  display: block;
+  overflow: visible;
+}
+
+/* =========================================================== */
+
+.li__add {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  opacity: 0;
+}
+
+/* .section:hover .li__add {
+  display: block;
+} */
+
+/* .li:hover .li__add {
+  transform: rotate(45deg);
+} */
+
+.type[type="radio"]:checked + .li__add {
+  opacity: 1;
+}

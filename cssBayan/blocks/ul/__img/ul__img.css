@@ -3,9 +3,9 @@
   height: 250px;
   align-self: center;
   margin-top: 10px;
-  display: none;
+  /* display: none; */
 }
 
-.ul:hover .ul__img {
+/* .ul:hover .ul__img {
   display: block;
-}
+} */
