@@ -1,0 +1,5 @@
+.element__content {
+  width: 100%;
+  display: none;
+  /* overflow: hidden; */
+}

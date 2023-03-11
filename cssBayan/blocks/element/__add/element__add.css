@@ -1,14 +1,14 @@
-/* .li__add {
+.element__add {
   height: 30px;
   width: 30px;
   align-self: center;
-  /* opacity: 0; */
-/* } */
+  opacity: 0;
+}
 
-/* .section:hover .li__add {
+.accordion:hover .element__add {
   opacity: 1;
 } */
 
-/* .li:hover .li__add {
+.element:hover .element__add {
   transform: rotate(45deg);
-} */
+}

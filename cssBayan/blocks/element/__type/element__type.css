@@ -1,0 +1,12 @@
+.element__type[type="radio"] {
+  display: none;
+}
+
+.element__type[type="radio"]:checked ~ .element__label .element__content {
+  display: block;
+  /* overflow: visible; */
+}
+
+.element__type[type="radio"]:checked + .element__label .element__add {
+  transform: rotate(45deg);
+}
