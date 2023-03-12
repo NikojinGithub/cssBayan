@@ -1,6 +1,7 @@
 @import url(../cssBayan/vendor/normalize.css);
 
 @import url(../cssBayan/blocks/header/header.css);
+@import url(../cssBayan/blocks/header/__title/header__title.css);
 @import url(../cssBayan/blocks/main/main.css);
 
 @import url(../cssBayan/blocks/accordion/accordion.css);
@@ -10,110 +11,3 @@
 @import url(../cssBayan/blocks/element/__content/element__content.css);
 @import url(../cssBayan/blocks/element/__add/element__add.css);
 @import url(../cssBayan/blocks/element/__img/element__img.css);
-
-/* .element__add {
-  height: 30px;
-  width: 30px;
-  align-self: center;
-  opacity: 0;
-}
-
-.accordion:hover .element__add {
-  opacity: 1;
-}
-
-.element:hover .element__add {
-  transform: rotate(45deg);
-}
-
-.element__content {
-  width: 100%;
-  display: none;
-} */
-
-/* .element__img {
-  display: block;
-  margin: 5px auto 5px;
-  width: 300px;
-  height: 300px;
-}
-
-.element {
-  list-style: none;
-  width: 100%;
-  margin-bottom: 10px;
-  border-bottom: 1px solid black;
-}
-
-.element:hover .element__content {
-  display: block;
-} */
-
-/* .element:hover .element__add {
-  transform: rotate(45deg);
-}
-
-.element {
-  list-style: none;
-  width: 100%;
-  margin-bottom: 10px;
-  border-bottom: 1px solid black;
-} */
-
-/* .element:hover .element__content {
-  display: block;
-} */
-
-/* .element:hover .element__add {
-  transform: rotate(45deg);
-}
-
-.element__label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 18px;
-  flex-wrap: wrap;
-}
-
-.accordion:hover .element .element__label{
-  cursor: pointer;
-} */
-
-/* Отслеживает два действия.
-1) Нахождение мышки на классе accordion
-2)Свойство применяется только для label чей input checked
- в данный момент */
-
-/* .accordion:hover .element__type[type="radio"]:checked + .element__label {
-  color: blue;
-  font-weight: bold;
-} */
-
-/* .element__type[type="radio"]:checked + .element__label {
-  color: blue;
-  font-weight: bold;
-} */
-
-/* .accordion:not(hover) .element__type[type="radio"]:not(checked) + .element__label {
-  color: black;
-} */
-
-
-/* .element__label:active {
-  color: blue;
-  font-weight: bold;
-  opacity: .6;
-}
-
-.element__type[type="radio"] {
-  display: none;
-}
-
-.element__type[type="radio"]:checked ~ .element__label .element__content {
-  display: block;
-}
-
-.element__type[type="radio"]:checked + .element__label .element__add {
-  transform: rotate(45deg);
-} */

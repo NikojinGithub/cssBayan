@@ -5,10 +5,6 @@
   border-bottom: 1px solid black;
 }
 
-.element:hover .element__content {
-  display: block;
-}
-
-.element:hover .element__add {
+/* .element:hover .element__add {
   transform: rotate(45deg);
-}
+} */
